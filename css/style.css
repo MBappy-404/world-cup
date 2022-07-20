@@ -1,0 +1,570 @@
+body {
+     font-family: 'Oswald', sans-serif;
+     margin: 0;
+     padding: 0;
+
+}
+
+p {
+     font-family: sans-serif;
+}
+
+/* MIAN */
+
+main {
+     width: 85%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: auto;
+}
+
+/********************
+
+     TOP BANNER
+
+********************/
+
+
+#top-banner {
+     background-color: black;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     border-radius: 20px;
+
+}
+
+.container-banner {
+     display: flex;
+     padding-bottom: 30px;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+}
+
+.left-banner-item {
+     width: 50%;
+     margin-left: 150px;
+     color: white;
+
+}
+
+.left-banner-item h1 {
+     font-size: 45px;
+     line-height: 50px;
+     width: 320px;
+
+}
+
+.left-banner-item p {
+     color: rgb(175, 169, 169);
+     width: 80%;
+     font-size: 15px;
+}
+
+.right-banner-image {
+     width: 50%;
+}
+
+.right-banner-image img {
+     margin-top: 35px;
+     transform: translateY(10px);
+}
+
+
+button#btn {
+     background-color: rgb(218, 38, 38);
+     color: white;
+     padding: 10px 22px;
+     font-weight: 600;
+     font-size: 16px;
+     border-radius: 5px;
+     border: none;
+
+}
+
+i.fa-solid.fa-chevron-right {
+     margin-left: 5px;
+}
+
+
+
+.watch-btn {
+     margin-top: 20px;
+}
+
+
+
+
+/********************
+
+MATCH DETAILS START
+
+********************/
+
+
+
+#match-details {
+     margin-bottom: 100px;
+}
+
+.match-container {
+     display: flex;
+}
+
+.left-bar {
+     width: 25%;
+}
+
+.match-blogs {
+     width: 70%;
+}
+
+.side-bar {
+     background-color: black;
+     text-align: center;
+     border-radius: 10px;
+}
+
+.bar a {
+     text-decoration: none;
+     color: black;
+     font-weight: 700;
+
+}
+
+
+.side-bar button {
+     font-size: 17px;
+     padding: 11px 20px;
+     width: 200px;
+     border-radius: 10px;
+     margin: 10px;
+     border: none;
+}
+
+.side-bar {
+     padding: 15px;
+}
+
+.side-bar .active button {
+     background-color: rgb(236, 41, 19);
+
+}
+
+.side-bar .active button a {
+     color: white;
+}
+
+.side-bar button:hover {
+     background-color: rgb(236, 41, 19);
+     color: white;
+     transition: .3s;
+     cursor: pointer;
+}
+
+.side-bar button:hover a {
+     color: white;
+}
+
+.match-blogs {
+     margin-left: 20px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 25px;
+     grid-row-gap: 25px;
+}
+
+.single-match-details {
+     width: 260px;
+     border: 1px solid rgb(224, 218, 218);
+     border-radius: 10px;
+}
+
+.blog-image img {
+     position: relative;
+     width: 100%;
+}
+
+
+.blog-image-info button {
+
+     padding: 5px 25px;
+     font-size: 13px;
+     font-weight: 700;
+     margin-top: 10px;
+     border: 1px solid rgb(29, 29, 29);
+     border-radius: 5px;
+
+
+}
+
+
+
+.blog {
+     margin-left: 15px;
+}
+
+.blog-image-info h3 {
+     font-size: 16px;
+
+}
+
+i.fa-regular.fa-comment-dots {
+     margin-left: 20px;
+}
+
+i.fa-regular.fa-comment-dots {
+     margin-left: 20px;
+}
+
+.match-comment-icone {
+     margin-bottom: 15px;
+     font-size: 13px;
+     color: rgb(70, 69, 69);
+}
+
+
+.hidden-btn {
+     display: none;
+
+}
+
+
+
+
+
+
+/********************
+
+       FOOTER
+
+********************/
+
+
+
+
+#footer {
+     background-color: black;
+
+}
+
+.footer-container {
+     padding: 80px;
+     color: white;
+     text-align: center;
+}
+
+hr {
+     margin-bottom: 30px;
+     color: rgb(61, 61, 66);
+     border: 1px solid;
+}
+
+.footer-content span {
+     margin-left: 30px;
+     color: rgb(143, 139, 139);
+     font-size: 13px;
+}
+
+
+.link a {
+
+     font-size: 35px;
+     margin-left: 30px;
+     margin-top: 20px;
+     color: rgb(255, 31, 225);
+}
+
+.link a i{
+     margin-top: 30px;
+}
+
+.link a:hover{
+     color: rgb(49, 153, 244);
+}
+
+p.copyright {
+     margin-top: 50px;
+     color: rgb(135, 126, 126);
+     font-size: 12px;
+}
+
+
+
+
+
+/********************
+
+------RESPONSIVE------
+
+********************/
+
+
+
+/********************
+
+    MOBILE DEVICE
+
+********************/
+
+
+@media only screen and (max-width:688px) {
+
+     /* TOP BANNER */
+
+     .container-banner {
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 30px;
+          overflow: hidden;
+          margin: 0;
+          padding: 0;
+     }
+
+     .left-banner-item {
+          width: 100%;
+          color: white;
+          margin: auto;
+          text-align: center;
+
+
+     }
+
+     .left-banner-item h1 {
+          font-size: 25px;
+          width: 49%;
+          margin: auto;
+          line-height: 35px;
+          margin-top: 20px;
+
+     }
+
+     .left-banner-item p {
+          color: rgb(175, 169, 169);
+          width: 70%;
+          font-size: 15px;
+          margin-left: 70px;
+          text-align: center;
+
+     }
+
+     button#btn {
+          background-color: rgb(218, 38, 38);
+          color: white;
+          padding: 10px 22px;
+          font-weight: 700;
+          font-size: 16px;
+          border-radius: 5px;
+          margin-top: 20px;
+          border: none;
+     }
+
+     .right-banner-image {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+
+     }
+
+     .right-banner-image img {
+          margin-top: 35px;
+          transform: translateX(10px);
+
+     }
+
+     /* MATCH-DETAILS */
+
+     .match-container {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .left-bar {
+          width: 100%;
+     }
+
+     .match-blogs {
+          width: 100%;
+     }
+
+     .side-bar {
+          background-color: white;
+          text-align: center;
+          border-radius: 10px;
+     }
+
+
+     .active button {
+          width: 150px;
+     }
+
+     .deactive button {
+          width: 180px;
+     }
+
+     .match-blogs {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-row-gap: 25px;
+          justify-content: center;
+     }
+
+     .single-match-details {
+          width: 90%;
+          border: 1px solid rgb(224, 218, 218);
+          border-radius: 10px;
+     }
+
+     /* FOOTER  */
+
+
+     .footer-content span {
+          margin-left: 30px;
+          color: rgb(143, 139, 139);
+          font-size: 18px;
+          letter-spacing: 1px;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          margin-bottom: 20px;
+     }
+
+     p.copyright {
+          margin-top: 60px;
+          color: rgb(135, 126, 126);
+          font-size: 15px;
+          margin-left: 40px;
+     }
+
+}
+
+
+/********************
+
+    TAB DEVICE
+
+********************/
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+     /* TOP BANNER  */
+
+     .container-banner {
+          display: flex;
+          padding-bottom: 30px;
+          overflow: hidden;
+          margin: 0;
+          padding: 40px;
+     }
+
+     .left-banner-item {
+          width: 45%;
+          margin-left: 20px;
+          color: white;
+
+     }
+
+     .left-banner-item h1 {
+          font-size: 35px;
+          line-height: 50px;
+          width: 320px;
+
+     }
+
+     .left-banner-item p {
+          color: rgb(175, 169, 169);
+          width: 80%;
+          font-size: 15px;
+     }
+
+     .right-banner-image {
+          width: 65%;
+     }
+
+     .right-banner-image img {
+          margin-top: 0;
+          transform: translateY(45px);
+     }
+
+     /* MATCH-DETAILS  */
+
+     .match-container {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+     }
+
+
+     .match-blogs {
+          width: 100%;
+
+     }
+
+     .left-bar {
+          width: 80%;
+
+
+     }
+
+     .side-bar button {
+          font-size: 15px;
+          padding: 11px 20px;
+          width: 175px;
+          border-radius: 10px;
+          margin: 10px;
+          border: none;
+
+
+     }
+
+
+     .side-bar {
+          background-color: white;
+          margin-left: 5vw;
+          border-radius: 6px;
+          display: flex;
+          padding: 0;
+          margin-bottom: 30px;
+          width: 100%;
+          justify-content: space-evenly;
+
+     }
+
+     .match-blogs {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-row-gap: 20px;
+          grid-column-gap: 10px;
+          justify-content: center;
+     }
+
+     .single-match-details {
+          width: 90%;
+          border: 1px solid rgb(224, 218, 218);
+          border-radius: 10px;
+     }
+
+     .hide {
+          display: none;
+     }
+
+     .hidden-btn {
+          display: block;
+          display: flex;
+          justify-content: center;
+          margin-top: 30px;
+
+     }
+
+
+}
+
+
+
+
+
+/********************
+
+    END.............
+
+********************/
