@@ -332,7 +332,7 @@ p.copyright {
      }
 
      .left-banner-item h1 {
-          font-size: 25px;
+          font-size: 20px;
           width: 49%;
           margin: auto;
           line-height: 35px;
@@ -344,7 +344,7 @@ p.copyright {
           color: rgb(175, 169, 169);
           width: 70%;
           font-size: 15px;
-          margin-left: 70px;
+          margin-left: 40px;
           text-align: center;
 
      }
